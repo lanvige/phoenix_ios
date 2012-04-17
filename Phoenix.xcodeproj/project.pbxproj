@@ -16,23 +16,31 @@
 		3814C2BB1536C81B001D8AAC /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3814C2B91536C81B001D8AAC /* iPhone.storyboard */; };
 		3814C2BE1536C81B001D8AAC /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3814C2BC1536C81B001D8AAC /* iPad.storyboard */; };
 		3814C2C11536C81B001D8AAC /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3814C2C01536C81B001D8AAC /* mainViewController.m */; };
+		389E963F153D4602000AA482 /* Default2.png in Resources */ = {isa = PBXBuildFile; fileRef = 389E963B153D4602000AA482 /* Default2.png */; };
+		389E9640153D4602000AA482 /* Default1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 389E963C153D4602000AA482 /* Default1@2x.png */; };
+		389E9641153D4602000AA482 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 389E963D153D4602000AA482 /* Icon.png */; };
+		389E9642153D4602000AA482 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 389E963E153D4602000AA482 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3814C2A31536C81B001D8AAC /* phoenix_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phoenix_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3814C2A31536C81B001D8AAC /* Phoenix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phoenix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3814C2A71536C81B001D8AAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3814C2A91536C81B001D8AAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3814C2AB1536C81B001D8AAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3814C2AF1536C81B001D8AAC /* phoenix_ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "phoenix_ios-Info.plist"; sourceTree = "<group>"; };
+		3814C2AF1536C81B001D8AAC /* Phoenix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Phoenix-Info.plist"; sourceTree = "<group>"; };
 		3814C2B11536C81B001D8AAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3814C2B31536C81B001D8AAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3814C2B51536C81B001D8AAC /* phoenix_ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "phoenix_ios-Prefix.pch"; sourceTree = "<group>"; };
-		3814C2B61536C81B001D8AAC /* PhoenixAppDelegate.h */ = {isa = PBXFileReference; path = PhoenixAppDelegate.h; sourceTree = "<group>"; };
+		3814C2B51536C81B001D8AAC /* Phoenix-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Phoenix-Prefix.pch"; sourceTree = "<group>"; };
+		3814C2B61536C81B001D8AAC /* PhoenixAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoenixAppDelegate.h; sourceTree = "<group>"; };
 		3814C2B71536C81B001D8AAC /* PhoenixAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoenixAppDelegate.m; sourceTree = "<group>"; };
 		3814C2BA1536C81B001D8AAC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPhone.storyboard; sourceTree = "<group>"; };
 		3814C2BD1536C81B001D8AAC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPad.storyboard; sourceTree = "<group>"; };
 		3814C2BF1536C81B001D8AAC /* mainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
 		3814C2C01536C81B001D8AAC /* mainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		389E963B153D4602000AA482 /* Default2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default2.png; sourceTree = "<group>"; };
+		389E963C153D4602000AA482 /* Default1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default1@2x.png"; sourceTree = "<group>"; };
+		389E963D153D4602000AA482 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		389E963E153D4602000AA482 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,9 @@
 		3814C2981536C81B001D8AAC = {
 			isa = PBXGroup;
 			children = (
-				3814C2AD1536C81B001D8AAC /* phoenix_ios */,
+				389E9639153D44AB000AA482 /* Resources */,
 				3814C2A61536C81B001D8AAC /* Frameworks */,
+				3814C2AD1536C81B001D8AAC /* Phoenix */,
 				3814C2A41536C81B001D8AAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +70,7 @@
 		3814C2A41536C81B001D8AAC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3814C2A31536C81B001D8AAC /* phoenix_ios.app */,
+				3814C2A31536C81B001D8AAC /* Phoenix.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,26 +85,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3814C2AD1536C81B001D8AAC /* phoenix_ios */ = {
+		3814C2AD1536C81B001D8AAC /* Phoenix */ = {
 			isa = PBXGroup;
 			children = (
-				389E9636153D2E01000AA482 /* ViewControllers */,
+				3814C2BC1536C81B001D8AAC /* iPad.storyboard */,
+				3814C2B91536C81B001D8AAC /* iPhone.storyboard */,
 				3814C2B61536C81B001D8AAC /* PhoenixAppDelegate.h */,
 				3814C2B71536C81B001D8AAC /* PhoenixAppDelegate.m */,
-				3814C2B91536C81B001D8AAC /* iPhone.storyboard */,
-				3814C2BC1536C81B001D8AAC /* iPad.storyboard */,
 				3814C2AE1536C81B001D8AAC /* Supporting Files */,
+				389E9636153D2E01000AA482 /* ViewControllers */,
 			);
-			path = phoenix_ios;
+			path = Phoenix;
 			sourceTree = "<group>";
 		};
 		3814C2AE1536C81B001D8AAC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3814C2AF1536C81B001D8AAC /* phoenix_ios-Info.plist */,
+				3814C2AF1536C81B001D8AAC /* Phoenix-Info.plist */,
 				3814C2B01536C81B001D8AAC /* InfoPlist.strings */,
 				3814C2B31536C81B001D8AAC /* main.m */,
-				3814C2B51536C81B001D8AAC /* phoenix_ios-Prefix.pch */,
+				3814C2B51536C81B001D8AAC /* Phoenix-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -109,12 +118,31 @@
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
+		389E9639153D44AB000AA482 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				389E963A153D44AB000AA482 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		389E963A153D44AB000AA482 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				389E963B153D4602000AA482 /* Default2.png */,
+				389E963C153D4602000AA482 /* Default1@2x.png */,
+				389E963D153D4602000AA482 /* Icon.png */,
+				389E963E153D4602000AA482 /* Icon@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3814C2A21536C81B001D8AAC /* phoenix_ios */ = {
+		3814C2A21536C81B001D8AAC /* Phoenix */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3814C2C41536C81B001D8AAC /* Build configuration list for PBXNativeTarget "phoenix_ios" */;
+			buildConfigurationList = 3814C2C41536C81B001D8AAC /* Build configuration list for PBXNativeTarget "Phoenix" */;
 			buildPhases = (
 				3814C29F1536C81B001D8AAC /* Sources */,
 				3814C2A01536C81B001D8AAC /* Frameworks */,
@@ -124,9 +152,9 @@
 			);
 			dependencies = (
 			);
-			name = phoenix_ios;
-			productName = phoenix_ios;
-			productReference = 3814C2A31536C81B001D8AAC /* phoenix_ios.app */;
+			name = Phoenix;
+			productName = Phoenix;
+			productReference = 3814C2A31536C81B001D8AAC /* Phoenix.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,7 +167,7 @@
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = LANVIGE;
 			};
-			buildConfigurationList = 3814C29D1536C81B001D8AAC /* Build configuration list for PBXProject "phoenix_ios" */;
+			buildConfigurationList = 3814C29D1536C81B001D8AAC /* Build configuration list for PBXProject "Phoenix" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -151,7 +179,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3814C2A21536C81B001D8AAC /* phoenix_ios */,
+				3814C2A21536C81B001D8AAC /* Phoenix */,
 			);
 		};
 /* End PBXProject section */
@@ -164,6 +192,10 @@
 				3814C2B21536C81B001D8AAC /* InfoPlist.strings in Resources */,
 				3814C2BB1536C81B001D8AAC /* iPhone.storyboard in Resources */,
 				3814C2BE1536C81B001D8AAC /* iPad.storyboard in Resources */,
+				389E963F153D4602000AA482 /* Default2.png in Resources */,
+				389E9640153D4602000AA482 /* Default1@2x.png in Resources */,
+				389E9641153D4602000AA482 /* Icon.png in Resources */,
+				389E9642153D4602000AA482 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +293,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "phoenix_ios/phoenix_ios-Prefix.pch";
-				INFOPLIST_FILE = "phoenix_ios/phoenix_ios-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Phoenix/Phoenix-Prefix.pch";
+				INFOPLIST_FILE = "Phoenix/Phoenix-Info.plist";
+				PRODUCT_NAME = Phoenix;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -272,9 +304,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "phoenix_ios/phoenix_ios-Prefix.pch";
-				INFOPLIST_FILE = "phoenix_ios/phoenix_ios-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Phoenix/Phoenix-Prefix.pch";
+				INFOPLIST_FILE = "Phoenix/Phoenix-Info.plist";
+				PRODUCT_NAME = Phoenix;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -282,7 +314,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3814C29D1536C81B001D8AAC /* Build configuration list for PBXProject "phoenix_ios" */ = {
+		3814C29D1536C81B001D8AAC /* Build configuration list for PBXProject "Phoenix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3814C2C21536C81B001D8AAC /* Debug */,
@@ -291,7 +323,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3814C2C41536C81B001D8AAC /* Build configuration list for PBXNativeTarget "phoenix_ios" */ = {
+		3814C2C41536C81B001D8AAC /* Build configuration list for PBXNativeTarget "Phoenix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3814C2C51536C81B001D8AAC /* Debug */,

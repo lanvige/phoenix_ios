@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "mainAppDelegate.h"
+#import "PhoenixAppDelegate.h"
 
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([mainAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([PhoenixAppDelegate class]));
     }
 }

@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 LANVIGE. All rights reserved.
 //
 
-#import "mainAppDelegate.h"
+#import "PhoenixAppDelegate.h"
 
-@implementation mainAppDelegate
+@implementation PhoenixAppDelegate
 
 @synthesize window = _window;
 

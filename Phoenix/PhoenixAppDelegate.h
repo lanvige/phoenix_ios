@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface mainAppDelegate : UIResponder <UIApplicationDelegate>
+@interface PhoenixAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
